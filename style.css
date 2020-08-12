@@ -1,0 +1,11 @@
+@font-face {
+  /*
+  Font taken from: https://www.dafont.com/starcraft.font
+  Starcraft font by Pixel Sagas 
+  */
+  font-family: SCfont; src: url('SCfont.ttf');
+}
+
+using-scfont {
+  font-family: SCfont;
+}

@@ -9,3 +9,24 @@
 using-scfont {
   font-family: SCfont;
 }
+
+item-boxover {
+    margin: 30px;
+}
+
+soft-fluid {
+    width:90%;
+    justify-content: center;
+}
+
+.row {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+[class*="col-"] {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 1px solid rgba(86, 61, 124, .2);
+}
+

@@ -6,15 +6,16 @@
   font-family: SCfont; src: url('SCfont.ttf');
 }
 
-using-scfont {
+.using-scfont {
   font-family: SCfont;
 }
 
-item-boxover {
-    margin: 30px;
+.item-boxover {
+    width: 100%;
+    image-rendering: pixelated;
 }
 
-soft-fluid {
+.soft-fluid {
     width:90%;
     justify-content: center;
 }

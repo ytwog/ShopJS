@@ -1,4 +1,6 @@
-
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover();   
-});
+function updateShop() {
+    $.getJSON( "json/shopData.json", function( data ) {
+      console.log(data);
+    });
+}
+updateShop();

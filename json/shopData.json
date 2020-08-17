@@ -1,0 +1,11 @@
+{
+   "race":"Zerg",
+   "raceInfo":{ 
+      "list": [
+      {"name":"Drone",
+       "thumbnail": "images/zDrone.png",
+       "alt": "Zerg Drone"
+      }
+      ]
+   }
+}

@@ -1,11 +1,12 @@
 {
-   "race":"Zerg",
-   "raceInfo":{ 
-      "list": [
-      {"name":"Drone",
-       "thumbnail": "images/zDrone.png",
-       "alt": "Zerg Drone"
-      }
-      ]
-   }
+	"list": [{
+		"race": "Zerg",
+        "list": [{
+            "type": 1,
+            "name": "Drone",
+            "thumbnail": "images/zDrone.png",
+            "alt": "Zerg Drone"
+        }],
+        "other":"none"
+	}]
 }

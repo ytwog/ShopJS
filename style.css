@@ -6,21 +6,38 @@
   font-family: SCfont; src: url('SCfont.ttf');
 }
 
+* {
+  font-size: min(max(12px, 4vw), 22px);
+}
+
+p {
+  word-wrap: break-word;
+  font-size: min(max(10px, 2.5vw), 16px);
+}
+
 .using-scfont {
   font-family: SCfont;
 }
 
+.img-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 72%;
+}
+
 .item-boxover {
-    width: 100%;
-    image-rendering: pixelated;
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  width: 100%;
+  image-rendering: pixelated;
 }
 
 .soft-fluid {
-    justify-content: center;
+  justify-content: center;
 }
 
-.row {
-  margin-left: 1rem;
+[class*="col-"]>.row {
+  margin-left: 0.1rem;
   margin-right: 1rem;
 }
 

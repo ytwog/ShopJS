@@ -1,12 +1,26 @@
 {
 	"list": [{
 		"race": "Zerg",
-        "list": [{
-            "type": 1,
-            "name": "Drone",
-            "thumbnail": "images/zDrone.png",
-            "alt": "Zerg Drone"
-        }],
+        "list": [
+            {
+                "isBuilding": false,
+                "name": "Drone",
+                "thumbnail": "images/zDrone.png",
+                "alt": "Zerg Drone"
+            },
+            {
+                "isBuilding": false,
+                "name": "Zergling",
+                "thumbnail": "images/zZergling.png",
+                "alt": "Zerg Doggy"
+            },
+            {
+                "isBuilding": false,
+                "name": "Roach",
+                "thumbnail": "images/zRoach.png",
+                "alt": "Zerg Roach"
+            }
+        ],
         "other":"none"
 	}]
 }

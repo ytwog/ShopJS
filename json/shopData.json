@@ -6,19 +6,33 @@
                 "isBuilding": false,
                 "name": "Drone",
                 "thumbnail": "images/zDrone.png",
-                "alt": "Zerg Drone"
+                "alt": "Zerg Drone",
+                "costX": 50,
+                "costY": 0
             },
             {
                 "isBuilding": false,
                 "name": "Zergling",
                 "thumbnail": "images/zZergling.png",
-                "alt": "Zerg Doggy"
+                "alt": "Zerg Doggy",
+                "costX": 50,
+                "costY": 0
             },
             {
                 "isBuilding": false,
                 "name": "Roach",
                 "thumbnail": "images/zRoach.png",
-                "alt": "Zerg Roach"
+                "alt": "Zerg Roach",
+                "costX": 75,
+                "costY": 25
+            },
+            {
+                "isBuilding": false,
+                "name": "Queen",
+                "thumbnail": "images/zQueen.png",
+                "alt": "Zerg Queen",
+                "costX": 150,
+                "costY": 0
             }
         ],
         "other":"none"

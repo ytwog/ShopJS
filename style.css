@@ -11,12 +11,23 @@
 }
 
 p {
+  text-align: center;
   word-wrap: break-word;
-  font-size: min(max(10px, 2.5vw), 16px);
+  font-size: min(max(10px, 1.1vw), 16px);
 }
 
 .using-scfont {
   font-family: SCfont;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.img-wrapper-sm {
+  position: relative;
+  width: 20%;
+  padding-bottom: 20%;
 }
 
 .img-wrapper {
@@ -36,6 +47,11 @@ p {
   justify-content: center;
 }
 
+.item-info {
+  text-align: center;
+  font-size: min(max(10px, 0.9vw), 16px);
+}
+
 [class*="col-"]>.row {
   margin-left: 0.1rem;
   margin-right: 1rem;
@@ -44,6 +60,8 @@ p {
 [class*="col-"] {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border: 1px solid rgba(86, 61, 124, .2);
+  transition: all 0.3s linear; 
+  -o-transition: all 0.3s linear; 
+  -moz-transition: all 0.3s linear; 
+  -webkit-transition: all 0.3s linear;
 }
-

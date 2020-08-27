@@ -6,8 +6,12 @@
   font-family: SCfont; src: url('SCfont.ttf');
 }
 
-* {
-  font-size: min(max(12px, 4vw), 22px);
+.inlined {
+  display: inline-block;  
+}
+
+.items-category {
+  font-size: min(max(8px, 3vw), 22px);
 }
 
 p {
@@ -24,16 +28,28 @@ p {
   background-color: black;
 }
 
-.img-wrapper-sm {
-  position: relative;
-  width: 20%;
-  padding-bottom: 20%;
+.img-sm {
+  width: min(max(12px, 4vw), 22px);
+  height: min(max(12px, 4vw), 22px); 
+  image-rendering: pixelated;
 }
 
 .img-wrapper {
   position: relative;
   width: 100%;
   padding-bottom: 72%;
+}
+
+.item-wrap:hover {
+    margin-top: -10px;
+   -moz-box-shadow:    0 0 50px black;
+   -webkit-box-shadow: 0 0 50px black;
+    box-shadow:         0 0 50px black;
+    transition: all 0.3s linear;
+}
+.item-wrap:hover:after {
+    background-color: red;
+    margin: 100px;
 }
 
 .item-boxover {
